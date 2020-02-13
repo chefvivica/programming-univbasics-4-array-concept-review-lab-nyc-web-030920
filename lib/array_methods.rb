@@ -21,11 +21,11 @@ def find_max_value(array)
     while i < array.length do 
       
       if array[i] > max
-        array[i]
+         max = array[i]
       end
       i += 1 
     end
-  array[i]  
+    
 end
 
 
