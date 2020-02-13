@@ -16,17 +16,17 @@ end
 
 def find_max_value(array)
   # Add your solution here
-    i = 0 
+    i = 1 
+    max = arr[0]
     while i < array.length do 
       
-      if array[i] > array[i+1]  
-        return array[i]
+      if max > array[i]  
+        return max
       end
       
       i += 1 
     end
     
-    array[i+1]
 end
 
 
